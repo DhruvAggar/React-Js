@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mclaren", cursive;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto 1px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: white;
+  font-weight: 200;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: black;
+}
+
+.note {
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 15px;
+  width: 200px;
+  float: left;
+}
+.note h1 {
+  font-size: 20px;
+}
+.note p {
+  font-size: 15px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
